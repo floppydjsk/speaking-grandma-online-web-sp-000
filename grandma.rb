@@ -1,6 +1,7 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
   puts "#{phrase}"
+  return
 end
 if speak_to_grandma(phrase) == speak_to_grandma(phrase).upcase
   puts "NO, NOT SINCE 1938!"
