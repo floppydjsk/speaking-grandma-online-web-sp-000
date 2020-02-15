@@ -2,7 +2,7 @@
 def speak_to_grandma(phrase)
   puts "#{phrase}"
 end
-if speak_to_grandma(phrase) == speak_to_grandma(phrase).upcase
+if speak_to_grandma(phrase) == string.upcase
   puts "NO, NOT SINCE 1938!"
 elsif speak_to_grandma(phrase) == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU PUMPKIN!"
